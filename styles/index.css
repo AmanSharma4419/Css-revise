@@ -298,6 +298,22 @@ span {
   text-align: start;
   padding: 2rem 0;
 }
+
+.footer_content h2 {
+  background-color: #232222;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2rem;
+}
+.footer_content h2:hover {
+  cursor: pointer;
+  color: #4caf50;
+  transition: 0.5s ease-in-out;
+  text-decoration: underline;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .hambuger_menu_btn {
