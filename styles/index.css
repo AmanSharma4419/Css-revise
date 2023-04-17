@@ -173,13 +173,14 @@ input::placeholder {
 }
 
 .second_about_section {
-  margin: 20rem 0;
+  margin-top: 25rem;
   background: #232222;
   width: 100%;
   color: whitesmoke;
   display: flex;
-  justify-content: space-between;
-  padding: 8rem 3rem;
+  justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 span {
   font-size: 2rem;
@@ -246,6 +247,57 @@ span {
   position: relative;
 }
 
+.our_process {
+  padding: 0 !important;
+}
+.process_heading {
+  text-align: center;
+  padding: 5rem 0;
+}
+.process_bar {
+  height: 2px;
+  width: 80%;
+  margin: 0 auto;
+  background: black;
+  position: relative;
+}
+.c1 {
+  border-radius: 50%;
+  background: black;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: 12rem;
+  bottom: -0.4rem;
+}
+.c2 {
+  border-radius: 50%;
+  background: black;
+  height: 1rem;
+  width: 1rem;
+  left: 35rem;
+  position: absolute;
+  bottom: -0.4rem;
+}
+.c3 {
+  border-radius: 50%;
+  background: black;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  left: 55rem;
+  bottom: -0.4rem;
+}
+
+.our_process_content_para {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.para_process {
+  text-align: center;
+  padding: 2rem 0;
+}
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .hambuger_menu_btn {
