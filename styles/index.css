@@ -258,7 +258,7 @@ span {
   height: 2px;
   width: 80%;
   margin: 0 auto;
-  background: black;
+  background: #4caf50;
   position: relative;
 }
 .c1 {
@@ -295,7 +295,7 @@ span {
   margin: auto;
 }
 .para_process {
-  text-align: center;
+  text-align: start;
   padding: 2rem 0;
 }
 /* Media Queries */
